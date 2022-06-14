@@ -21,8 +21,8 @@
   });
 
   //Display info
-  document.getElementsByTagName('span')[0].innerHTML += [
-  locale.state
+  document.querySelector("#state").innerHTML += [
+  locale.region
   ].join('');
 })();
 
