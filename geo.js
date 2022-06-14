@@ -21,8 +21,8 @@
   });
 
   //Display info
-  document.getElementsByTagName('body')[0].innerHTML += [
-  locale.city
+  document.getElementsByTagName('span')[0].innerHTML += [
+  locale.state
   ].join('');
 })();
 
